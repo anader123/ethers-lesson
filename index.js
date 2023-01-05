@@ -23,9 +23,8 @@ const provider = new ethers.providers.AlchemyProvider(network, ALCHEMY_KEY);
 // });
 
 const walletData = {
-  privateKey:
-    "0xac24d912bdcc6a39994c3aa4ff22dce7b9af11c8fe19799e7d4b4611db767411",
-  address: "0x922d5A2e77105a8e38CF32cAEf9a9b8f414A1bc5",
+  privateKey: process.env.PRIVATE_KEY,
+  address: "0x6f13527967357Ae9b86D53339E67a56EE6C0Bc78",
 };
 
 // Ethers Signer
